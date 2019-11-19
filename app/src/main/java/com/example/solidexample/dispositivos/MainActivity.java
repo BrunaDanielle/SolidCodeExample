@@ -1,8 +1,10 @@
-package com.example.solidexample;
+package com.example.solidexample.dispositivos;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.solidexample.R;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.example.solidexample;
+package com.example.solidexample.dispositivos;
 
 public interface IDispositivo {
 
