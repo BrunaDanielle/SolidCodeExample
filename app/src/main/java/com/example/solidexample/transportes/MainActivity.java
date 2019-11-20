@@ -1,4 +1,4 @@
-package com.example.solidexample.dispositivos;
+package com.example.solidexample.transportes;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,5 +13,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Carro c1 = new Carro();
+        Bicicleta b1 = new Bicicleta();
+        comprarVeiculo(c1);
+        comprarVeiculo(b1);
+    }
+    public void comprarVeiculo(Transporte transp){
+        //...
     }
 }
